@@ -43,7 +43,7 @@ export default {
                 camera : this.viewer.scene.camera,
                 canvas : this.viewer.scene.canvas
             };
-            this.viewer.dataSources.add(Cesium.KmlDataSource.load('../../static/doc.kml', options));
+            this.viewer.dataSources.add(Cesium.KmlDataSource.load('/static/doc.kml', options));
             this.viewer.camera.flyTo({
                 destination : Cesium.Cartesian3.fromDegrees(127.230294, 38.307178, 1500.0),
             });
