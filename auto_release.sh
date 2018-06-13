@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 npm run build
-mv ./dist ../../../
+mv ./dist ./sewoon2dmz
+mv ./dist ../../../var/www/html
