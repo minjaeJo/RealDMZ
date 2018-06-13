@@ -13,4 +13,7 @@ npm run dev
 
 # 배포
 npm run build
+
+# sewoon2dmz 배포
+sh auto_release.sh
 ```
