@@ -5,11 +5,11 @@ import cesiumContainer from '@/components/cesiumContainer'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'cesiumContainer',
-      component: cesiumContainer
-    }
-  ]
+    routes: [
+        {
+            path: '/',
+            name: 'cesiumContainer',
+            component: cesiumContainer
+        },
+    ]
 })
