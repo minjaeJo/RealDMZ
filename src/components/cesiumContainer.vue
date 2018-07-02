@@ -46,7 +46,7 @@ export default {
                     accessToken: 'pk.eyJ1Ijoic2V3b29uIiwiYSI6ImNqaTEyZnBmZTA2NTEzcXFwNTRvNjFmdDMifQ.vHg1EEUA3N_yY8-LyHlgUw'
                 })
             });
-            this.url = window.location.href.slice(0,-3);
+            // this.url =
         },
 
         flytoCamera() {
