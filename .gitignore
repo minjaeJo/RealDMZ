@@ -1,5 +1,4 @@
-static
-dist
+/static
 # Logs
 logs
 *.log
