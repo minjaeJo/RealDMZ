@@ -18,13 +18,7 @@ export default {
     },
     mounted(){
         this.loadView()
-        this.createModel(this.url + '/static/1-s1.glb',[127.2310400972056,38.30786173349542],0)
-        this.createModel(this.url + '/static/1-s2.glb',[127.2309034247928,38.30776363257965],0)
-        this.createModel(this.url + '/static/2-s7.glb',[127.2306922000855,38.30771498710235],0)
-        this.createModel(this.url + '/static/3-s3.glb',[127.2306505028071,38.30759306518442],0)
-        this.createModel(this.url + '/static/3-s5.glb',[127.2307207813936,38.30754055902372],0)
-        this.createModel(this.url + '/static/3-s6.glb',[127.2308125550497,38.30751561222556],0)
-        this.createModel(this.url + '/static/4-s4.glb',[127.230836112512,38.3075715439865],0)
+
         this.flytoCamera()
     },
     methods: {
@@ -49,7 +43,7 @@ export default {
             // this.url =
         },
 
-        flytoCamera() {
+        flytoCamera(location) {
             var options = {
                 camera : this.viewer.scene.camera,
                 canvas : this.viewer.scene.canvas
