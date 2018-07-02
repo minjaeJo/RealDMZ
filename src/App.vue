@@ -10,10 +10,13 @@
 import Cesium from 'cesium/Cesium';
 import widgets from 'cesium/Widgets/widgets.css';
 
-import cameraModel from './components/cameraModel'
+import CameraModel from './components/cameraModel'
 
 export default {
     name: 'app',
+    components: {
+        'CameraModel' : CameraModel,
+    },
     data() {
         return {
             viewer: '',
