@@ -1,51 +1,56 @@
 <template>
   <div id="app">
     <div id="cesiumContainer"></div>
-    <div id="toolbar">
-        <div id="location">
-            <p>Location</p>
-            <el-radio-group v-model="location_model" size="small" @change="this.locationCamera">
-                <el-radio-button label="DMZ_Peace_Plaza"></el-radio-button>
-                <el-radio-button label="SewoonCampus"></el-radio-button>
-                <el-radio-button label="NewYork"></el-radio-button>
-            </el-radio-group>
-        </div>
-        <div id="option">
-            <p>Option</p>
-            <span>shadow</span>
-            <el-switch v-model="shadow_model" v-on:change="this.showShadow" ></el-switch>
-        </div>
-        <div>
-            <p>ArtWork</p>
-            <el-table ref="multipleTable" :data="artworks_model" @selection-change="handleSelectionChange" style="width: 100%">
-                    <el-table-column type="selection" width="55"></el-table-column>
-                <el-table-column label="Model" width="100">
-                    <template slot-scope="scope">
-                        <i class="el-icon-location-outline"></i>
-                        <span style="margin-left: 10px">{{ scope.row.model }}</span>
-                    </template>
-                </el-table-column>
-                <el-table-column label="Texture" width="100">
-                    <template slot-scope="scope">
-                        <el-switch v-model="scope.row.texture_model" active-color="#13ce66" inactive-color="#ff4949" ></el-switch>
-                    </template>
-                </el-table-column>
-                <el-table-column label="Color" width="100">
-                    <template slot-scope="scope">
-                          <el-select v-model="scope.row.color_model" placeholder="Select">
-                            <el-option v-for="item in color_option" :key="item.value" :label="item.label" :value="item.value"></el-option>
-                        </el-select>
-                    </template>
-                </el-table-column>
-                <el-table-column label="Opercity" width="100">
-                    <template slot-scope="scope">
-                        <el-slider v-model="scope.row.opercity_model" :format-tooltip="formatTooltip"></el-slider>
-                    </template>
-                </el-table-column>
-            </el-table>
+    <div id="toolbar" >
+        <el-button style="display: inline-block;" type="primary" icon="el-icon-arrow-right" @click="isHiddenCloseButton=false" v-if="isHiddenCloseButton"></el-button>
+        <div id="a" v-if="!isHiddenCloseButton">
+            <div id="location">
+                <p style="display: inline-block;">Location</p>
+                <el-button style="display: inline-block; float: right;" type="primary" icon="el-icon-arrow-left" @click="isHiddenCloseButton=true"></el-button>
+                <el-radio-group style="display: block;" class="child" v-model="location_model" size="small" @change="this.locationCamera">
+                    <el-radio-button label="DMZ_Peace_Plaza"></el-radio-button>
+                    <el-radio-button label="SewoonCampus"></el-radio-button>
+                    <el-radio-button label="NewYork"></el-radio-button>
+                </el-radio-group>
+            </div>
+            <div id="option">
+                <p>Option</p>
+                <span class="child">shadow
+                    <el-switch class="child" v-model="shadow_model" v-on:change="this.showShadow" ></el-switch>
+                </span>
+            </div>
+            <div>
+                <p>ArtWork</p>
+                <el-table ref="multipleTable" :data="artworks_model" @selection-change="handleSelectionChange" style="width: 100%">
+                        <el-table-column type="selection" width="55"></el-table-column>
+                    <el-table-column label="Model" width="100">
+                        <template slot-scope="scope">
+                            <i class="el-icon-location-outline"></i>
+                            <span style="margin-left: 10px">{{ scope.row.model }}</span>
+                        </template>
+                    </el-table-column>
+                    <el-table-column label="Texture" width="100">
+                        <template slot-scope="scope">
+                            <el-switch v-model="scope.row.texture_model" active-color="#13ce66" inactive-color="#ff4949" ></el-switch>
+                        </template>
+                    </el-table-column>
+                    <el-table-column label="Color" width="100">
+                        <template slot-scope="scope">
+                            <el-select v-model="scope.row.color_model" placeholder="Select">
+                                <el-option v-for="item in color_option" :key="item.value" :label="item.label" :value="item.value"></el-option>
+                            </el-select>
+                        </template>
+                    </el-table-column>
+                    <el-table-column label="Opercity" width="100">
+                        <template slot-scope="scope">
+                            <el-slider v-model="scope.row.opercity_model" :format-tooltip="formatTooltip"></el-slider>
+                        </template>
+                    </el-table-column>
+                </el-table>
+            </div>
         </div>
     </div>
-  </div>
+</div>
 </template>
 
 <script>
@@ -57,13 +62,14 @@ export default {
     data() {
         return {
             viewer: '',
+            isHiddenCloseButton: false,
             url: window.location.href,
             none_texture_url: window.location.href + 'static/none/' ,
             texture_url: window.location.href + 'static/texture/',
             location_model: "",
             location_options: {
                 DMZ_Peace_Plaza : [127.230294, 38.307178, 250.0],
-                SewoonCampus : [126.995151, 37.569879, 1000.0],
+                SewoonCampus : [126.9956982136,37.56601105667, 1000.0],
                 NewYork : [ -73.981061, 40.719265, 100000.0]
             },
             shadow_model: true,
@@ -197,6 +203,8 @@ export default {
                 canvas : this.viewer.scene.canvas
             };
             this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/dmz.kml', options));
+            // this.viewer.dataSources.add(Cesium.CzmlDataSource.load(this.url + '/static/sewoon/10-1.czml'));
+
         },
         // 작품 색상 및 투명도
          getColor(colorName, alpha) {
@@ -252,6 +260,8 @@ export default {
                     break;
                 case "SewoonCampus":
                     this.flytoCamera(this.location_options.SewoonCampus);
+                    this.viewer.entities.removeAll();
+                    this.createModel(10, this.url + '/static/sewoon/15.gltf',[126.9956982136,37.56601105667,0], 'White', 1.0)
                     break;
                 case "NewYork":
                     this.flytoCamera(this.location_options.NewYork);
@@ -268,11 +278,8 @@ export default {
                 } else {
                     this.artworks_option[result.id].url = this.none_texture_url + String(result.id+1) + '.glb'
                 }
-                console.log(this.artworks_option[result.id].url)
-                // this.artworks_option[result.id].url = this.artworks_model[result.id].texture_model
                 this.artworks_option[result.id].color = this.artworks_model[result.id].color_model
                 this.artworks_option[result.id].opercity = this.artworks_model[result.id].opercity_model
-                console.log(this.artworks_option[result.id])
                 this.createModel(
                     this.artworks_option[result.id].name,
                     this.artworks_option[result.id].url,
@@ -280,9 +287,7 @@ export default {
                     this.artworks_option[result.id].color,
                     this.artworks_option[result.id].opercity/100
                 )
-
             })
-            // this.createModel(this)
         }
     },
 
@@ -322,6 +327,13 @@ html, body, #cesiumContainer {
 #toolbar p {
     margin-bottom: 8px;
     margin-top: 8px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.child {
+    margin-left: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .el-menu--horizontal {
