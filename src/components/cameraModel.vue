@@ -167,9 +167,9 @@ export default {
 <style >
 .fly-to-menu {
     position: absolute;
-    top: 7px;
-    left: 10px;
-    width: 200px;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: calc(100% - 165px);
     height: 30px;
     border-radius: 2px;
     list-style: none;
