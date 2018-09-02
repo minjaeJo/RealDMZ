@@ -124,18 +124,21 @@ export default {
             var position = Cesium.Cartesian3.fromDegrees(object.location[0], object.location[1]);
             var hpr = new Cesium.HeadingPitchRoll(0, 0, 0);
             var orientation = Cesium.Transforms.headingPitchRollQuaternion(position, hpr);
-            this.viewer.entities.add({
-                id: object.name,
-                name : object.name,
-                position : position,
-                orientation : orientation,
-                model : {
-                    uri : object.url,
-                    scale: 0.5,
-                    minimumPixelSize : 10,
-                    maximumScale : 100
-                },
-                description: object.description
+            var self = this;
+            return new Promise(function(resolve, reject) {
+                self.viewer.entities.add({
+                    id: object.name,
+                    name : object.name,
+                    position : position,
+                    orientation : orientation,
+                    model : {
+                        uri : object.url,
+                        scale: 0.5,
+                        minimumPixelSize : 10,
+                        maximumScale : 100
+                    },
+                    description: object.description
+                });
             });
         }
         , uploadRockModel() {

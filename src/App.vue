@@ -41,18 +41,18 @@ export default {
                 canvas : this.viewer.scene.canvas
             }
             this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/peace_plaza/doc.kml', this.options));
-            this.viewer.entities.add({
-                polygon : {
-                    hierarchy : {
-                        positions : [new Cesium.Cartesian3.fromDegrees(127.2397740086337, 38.31179078716935, 100),
-                                    new Cesium.Cartesian3.fromDegrees(127.2397740086337, 38.30347796655927, 100),
-                                    new Cesium.Cartesian3.fromDegrees(127.2223710259937, 38.30347796655927, 100),
-                                    new Cesium.Cartesian3.fromDegrees(127.2223710259937, 38.31179078716935, 100)]
-                    },
-                    material : this.url + '/static/peace_plaza/forGE-01.png',
-                    classificationType : Cesium.ClassificationType.TERRAIN
-                }
-             });
+            // this.viewer.entities.add({
+            //     polygon : {
+            //         hierarchy : {
+            //             positions : [new Cesium.Cartesian3.fromDegrees(127.2397740086337, 38.31179078716935, 100),
+            //                         new Cesium.Cartesian3.fromDegrees(127.2397740086337, 38.30347796655927, 100),
+            //                         new Cesium.Cartesian3.fromDegrees(127.2223710259937, 38.30347796655927, 100),
+            //                         new Cesium.Cartesian3.fromDegrees(127.2223710259937, 38.31179078716935, 100)]
+            //         },
+            //         material : this.url + '/static/peace_plaza/forGE-01.png',
+            //         classificationType : Cesium.ClassificationType.TERRAIN
+            //     }
+            //  });
             this.viewer.infoBox.frame.sandbox = "allow-same-origin allow-top-navigation allow-pointer-lock allow-popups allow-forms allow-scripts";
         }
     }
@@ -73,36 +73,6 @@ html, body, #cesiumContainer {
 }
 #cesiumContainer {
     position: absolute;
-}
-#toolbar {
-    background: rgba(42, 42, 42, 0.8);
-    padding: 4px;
-    border-radius: 4px;
-    z-index: 1000;
-    position: absolute;
-}
-#toolbar input {
-    vertical-align: middle;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-#toolbar .header {
-    font-weight: bold;
-}
-#toolbar p {
-    margin-bottom: 8px;
-    margin-top: 8px;
-    margin-left: 5px;
-    font-size: 20px;
-}
-.child {
-    margin-left: 24px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.el-menu--horizontal {
-    border-bottom: 0px;
 }
 
 </style>
