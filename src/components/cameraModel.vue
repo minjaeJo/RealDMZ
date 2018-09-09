@@ -4,10 +4,12 @@
             <img :src="url+'/static/location/rock.png'" @click.once="uploadRockModel()">
         </div>
         <div class="location" @click="flyToLocation('sewoon_campus')">
-            <img :src="url+'/static/location/dongdaemun_design_plaza.png'" @click.once="createBigModel(sewoon_model)">
+            <!--<img :src="url+'/static/location/dongdaemun_design_plaza.png'" @click.once="createBigModel(sewoon_model)">-->
+             <img :src="url+'/static/location/dongdaemun_design_plaza.png'">
         </div>
         <div class="location" @click="flyToLocation('sonje_art_center')">
-            <img :src="url+'/static/location/art_center.png'" @click.once="createBigModel(artcenter_model)">
+            <!--<img :src="url+'/static/location/art_center.png'" @click.once="createBigModel(artcenter_model)">-->
+            <img :src="url+'/static/location/art_center.png'" >
         </div>
         <div class="location" @click="flyToLocation('new_york')">
             <img :src="url+'/static/location/newyork.png'">
