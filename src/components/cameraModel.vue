@@ -2,7 +2,7 @@
     <div class="fly-to-menu" mode="horizontal">
         <div class="location" @click="flyToLocation('dmz_peace_plaza')" style="width: 100px">
             <!--<img :src="url+'/static/location/rock.png'" @click.once="uploadRockModel()">-->
-            <p style="color:#fff;">Absentials</p>
+            <button style="color:#fff;" @click.once="uploadRockModel()">Absentials</button>
         </div>
         <!--<div class="location" @click="flyToLocation('sewoon_campus')">
             <img :src="url+'/static/location/dongdaemun_design_plaza.png'" @click.once="createBigModel(sewoon_model)">
