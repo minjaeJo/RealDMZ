@@ -1,19 +1,18 @@
 <template>
     <div class="fly-to-menu" mode="horizontal">
-        <div class="location" @click="flyToLocation('dmz_peace_plaza')">
-            <img :src="url+'/static/location/rock.png'" @click.once="uploadRockModel()">
+        <div class="location" @click="flyToLocation('dmz_peace_plaza')" style="width: 100px">
+            <!--<img :src="url+'/static/location/rock.png'" @click.once="uploadRockModel()">-->
+            <p style="color:#fff;">Absentials</p>
         </div>
-        <div class="location" @click="flyToLocation('sewoon_campus')">
-            <!--<img :src="url+'/static/location/dongdaemun_design_plaza.png'" @click.once="createBigModel(sewoon_model)">-->
-             <img :src="url+'/static/location/dongdaemun_design_plaza.png'">
+        <!--<div class="location" @click="flyToLocation('sewoon_campus')">
+            <img :src="url+'/static/location/dongdaemun_design_plaza.png'" @click.once="createBigModel(sewoon_model)">
         </div>
         <div class="location" @click="flyToLocation('sonje_art_center')">
-            <!--<img :src="url+'/static/location/art_center.png'" @click.once="createBigModel(artcenter_model)">-->
-            <img :src="url+'/static/location/art_center.png'" >
+            <img :src="url+'/static/location/art_center.png'" @click.once="createBigModel(artcenter_model)">
         </div>
         <div class="location" @click="flyToLocation('new_york')">
             <img :src="url+'/static/location/newyork.png'">
-        </div>
+        </div>-->
     </div>
 </template>
 
