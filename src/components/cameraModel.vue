@@ -23,7 +23,7 @@ export default {
     , data() {
         return {
             url: window.location.href
-            , dmz_peace_plaza : { lon:127.230294, lat:38.307178, alt:250.0}
+            , dmz_peace_plaza : { lon:127.230694, lat:38.307178, alt:60.0}
             , sewoon_campus : { lon:126.9956982136, lat:37.56601105667, alt:1000.0}
             , sonje_art_center : { lon:126.981942, lat:37.579460, alt: 1000.0}
             , new_york: { lon: -73.981061, lat: 40.719265, alt: 100000.0}
@@ -105,21 +105,34 @@ export default {
             switch (location) {
                 case 'dmz_peace_plaza':
                         value = this.dmz_peace_plaza;
+                        this.viewer.camera.flyTo({
+                            destination: Cesium.Cartesian3.fromDegrees(value.lon, value.lat, value.alt),
+                            orientation : {
+                                heading: Cesium.Math.toRadians(15.0)
+                                ,pitch: Cesium.Math.toRadians(-50.0)
+                                ,roll: Cesium.Math.toRadians(-10.0)
+                            }
+                        });
                     break;
                 case 'sewoon_campus':
                         value = this.sewoon_campus;
+                        this.viewer.camera.flyTo({
+                            destination: Cesium.Cartesian3.fromDegrees(value.lon, value.lat, value.alt)
+                        });
                     break;
                 case 'sonje_art_center':
                         value = this.sonje_art_center;
+                        this.viewer.camera.flyTo({
+                            destination: Cesium.Cartesian3.fromDegrees(value.lon, value.lat, value.alt)
+                        });
                     break;
                 case 'new_york':
                         value = this.new_york;
+                        this.viewer.camera.flyTo({
+                            destination: Cesium.Cartesian3.fromDegrees(value.lon, value.lat, value.alt)
+                        });
                     break;
             }
-            this.viewer.camera.flyTo({
-                destination: Cesium.Cartesian3.fromDegrees(value.lon, value.lat, value.alt)
-
-            });
         }
         , createModel(object) {
             var position = Cesium.Cartesian3.fromDegrees(object.location[0], object.location[1]);
