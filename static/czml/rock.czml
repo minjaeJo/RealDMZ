@@ -1,0 +1,29 @@
+[{
+    "id" : "rock-polygon",
+    "name" : "Rock Area Cluster ",
+    "version" : "1.0"
+}
+, {
+    "id" : "Rock1-Area",
+    "name" : "Rock1-Area",
+    "polyline" : {
+        "positions" : {
+            "cartographicDegrees" : [
+                127.2310368836907,38.30786319043345,0
+                , 127.2308697891212,38.30790274374517,0
+                , 127.23093839129,38.30779649035475,0
+                , 127.2311020188478,38.30776680635015,0
+            ]
+        },
+        "material" : {
+            "solidColor" : {
+                "color" : {
+                    "rgba" : [255, 0, 0, 255]
+                },
+
+            }
+        },
+        "width" : 5,
+        "clampToGround" : true
+    }
+]
