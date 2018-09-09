@@ -116,9 +116,6 @@ export default {
                         value = this.new_york;
                     break;
             }
-            this.viewer.camera.flyTo({
-                destination: Cesium.Cartesian3.fromDegrees(value.lon, value.lat, value.alt)
-            });
         }
         , createModel(object) {
             var position = Cesium.Cartesian3.fromDegrees(object.location[0], object.location[1]);

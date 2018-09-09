@@ -52,7 +52,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -68,7 +68,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -85,7 +85,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -102,7 +102,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -119,7 +119,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -136,7 +136,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -153,7 +153,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
@@ -172,7 +172,7 @@ export default {
                     ,
                     width : 5,
                     material : new Cesium.PolylineOutlineMaterialProperty({
-                        color : Cesium.Color.DIMGRAY.withAlpha(0.5),
+                        color : Cesium.Color.DIMGRAY.withAlpha(0.3),
                         outlineWidth : 2,
                         outlineColor : Cesium.Color.BLACK
                     })
