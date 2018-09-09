@@ -170,9 +170,8 @@ export default {
 <style >
 .fly-to-menu {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 10px;
-    width: calc(100% - 165px);
+    top: 45px;
+    right: 5px;
     height: 30px;
     border-radius: 2px;
     list-style: none;
@@ -182,12 +181,12 @@ export default {
     display: -webkit-inline-box;
     width: 30px;
     color: #000;
-    margin-right: 5px;
+    margin-right: 4px;
 }
 .fly-to-menu .location img {
-    width: 33px;
+    width: 32px;
     height: 30px;
     background: #edffff;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 </style>

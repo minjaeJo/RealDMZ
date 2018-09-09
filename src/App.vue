@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="cesiumContainer"></div>
+    <img id="logo" :src="url + 'static/logo.png'">
     <CameraModel :viewer="viewer"></CameraModel>
 </div>
 </template>
@@ -73,6 +74,11 @@ html, body, #cesiumContainer {
 }
 #cesiumContainer {
     position: absolute;
+}
+#logo {
+    z-index: 999;
+    position: absolute;
+    width: 250px;
 }
 
 </style>
