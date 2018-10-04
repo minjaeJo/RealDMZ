@@ -1,10 +1,10 @@
 <template>
     <div class="fly-to-menu" mode="horizontal">
         <div class="location" @click="flyToLocation('dmz_peace_plaza')" style="width: 100px">
-            <!--<img :src="url+'/static/location/rock.png'" @click.once="uploadRockModel()">-->
-            <button style="color:#fff;" @click.once="uploadRockModel()">Absentials</button>
+            <img :src="url+'/static/location/rock.png'" @click.once="uploadRockModel()">
+            <!-- <button style="color:#fff;" @click.once="uploadRockModel()">Absentials</button> -->
         </div>
-        <!--<div class="location" @click="flyToLocation('sewoon_campus')">
+        <div class="location" @click="flyToLocation('sewoon_campus')">
             <img :src="url+'/static/location/dongdaemun_design_plaza.png'" @click.once="createBigModel(sewoon_model)">
         </div>
         <div class="location" @click="flyToLocation('sonje_art_center')">
@@ -12,7 +12,7 @@
         </div>
         <div class="location" @click="flyToLocation('new_york')">
             <img :src="url+'/static/location/newyork.png'">
-        </div>-->
+        </div>
     </div>
 </template>
 
@@ -35,7 +35,7 @@ export default {
                     location: [127.2310400972056, 38.30786173349542],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#1</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#1</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
                 , {
                     name: "1-s2",
@@ -43,7 +43,7 @@ export default {
                     location: [127.2309034247928, 38.30776363257965],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#2</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#2</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
                 , {
                     name: "2-s7",
@@ -51,7 +51,7 @@ export default {
                     location: [127.2306922000855,38.30771498710235],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description:'<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#6</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description:'<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#6</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
                 , {
                     name: "3-s3",
@@ -59,7 +59,7 @@ export default {
                     location: [127.2306505028071,38.30759306518442],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#1</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#1</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
                 , {
                     name: "3-s5",
@@ -67,7 +67,7 @@ export default {
                     location: [127.2307207813936,38.30754055902372],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#2</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/1251eae6b84d4e989cce1fed49406d6c?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#2</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
                 , {
                     name: "3-s6",
@@ -75,7 +75,7 @@ export default {
                     location: [127.2308125550497,38.30751561222556],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#1</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description: '<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/7eb633ad291f49e8afd00bc2ce48c471?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#1</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
                 , {
                     name: "4-s4",
@@ -83,7 +83,7 @@ export default {
                     location: [127.230836112512,38.3075715439865],
                     color: 'GREY',
                     opercity: 1.0,
-                    //description:'<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#6</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
+                    description:'<div class="sketchfab-embed-wrapper"><iframe width="480" height="480" src="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"><a href="https://sketchfab.com/models/664a524e71804c77b2f5d14b6e71e814?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">1-#6</a>by <a href="https://sketchfab.com/dmz1?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">dmz1</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>'
                 }
             ]
             , sewoon_model:  {
