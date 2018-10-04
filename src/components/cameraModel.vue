@@ -88,12 +88,14 @@ export default {
             , sewoon_model:  {
                 name: "세운상가",
                 url: window.location.href + '/static/sewwon.glb',
-                location: [126.9956982136,37.56601105667,1000.0],
+                location: [126.9956982136,37.56601105667],
+                color: 'GREY',
+                opercity: 1.0
             }
             , artcenter_model:  {
                 name: "선재아트센터",
                 url: window.location.href + '/static/artcenter.glb',
-                location: [126.981942,37.579460,1000.0],
+                location: [126.981942,37.579460],
             }
         }
     }
@@ -171,7 +173,7 @@ export default {
                 orientation : orientation,
                 model : {
                     uri : object.url,
-                    scale: 10.0,
+                    scale: 1.0,
                     minimumPixelSize : 10,
                     maximumScale : 100
                 },

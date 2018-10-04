@@ -42,6 +42,7 @@ export default {
                 canvas : this.viewer.scene.canvas
             }
             this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/peace_plaza/doc.kml', this.options));
+            this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/distantInteractive.kml', this.options));
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.2310368836907, 38.30786319043345, 0),
@@ -74,7 +75,6 @@ export default {
                     })
                 }
             });
-
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.2306924433398,38.30771630039334,0),
@@ -91,7 +91,6 @@ export default {
                     })
                 }
             });
-
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.230743253134,38.30755432992905,0),
@@ -108,7 +107,6 @@ export default {
                     })
                 }
             });
-
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.2306802824907,38.30749162527093,0),
@@ -125,7 +123,6 @@ export default {
                     })
                 }
             });
-
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.2308110870514,38.3075150021456,0),
@@ -142,7 +139,6 @@ export default {
                     })
                 }
             });
-
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.2308291670661,38.30756893168915,0),

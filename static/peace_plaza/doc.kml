@@ -332,7 +332,7 @@
 				<coordinates>127.230836112512,38.3075715439865,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<!-- <Placemark>
 			<name>노동당사</name>
 			<LookAt>
 				<longitude>127.2013959989428</longitude>
@@ -348,7 +348,7 @@
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>127.2021198404825,38.25526963154442,0</coordinates>
 			</Point>
-		</Placemark>
+		</Placemark> -->
 		<!-- <Placemark>
 			<name>Rock1-Area</name>
 			<styleUrl>#msn_ylw-pushpin0</styleUrl>
