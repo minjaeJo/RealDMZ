@@ -42,7 +42,7 @@ export default {
                 canvas : this.viewer.scene.canvas
             }
             this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/peace_plaza/doc.kml', this.options));
-            this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/distantInteractive.kml', this.options));
+            this.viewer.dataSources.add(Cesium.KmlDataSource.load(this.url + '/static/sonje-talk/doc.kml', this.options));
             this.viewer.entities.add({
                 polyline : {
                     positions : [new Cesium.Cartesian3.fromDegrees(127.2310368836907, 38.30786319043345, 0),
