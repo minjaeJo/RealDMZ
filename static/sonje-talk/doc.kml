@@ -108,7 +108,7 @@
 				<name>철원</name>
 				<Placemark>
 					<name>고석정</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/0320_gosukjung.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/0320_gosukjung.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>127.2885822945642</longitude>
 						<latitude>38.184035079308</latitude>
@@ -126,7 +126,7 @@
 				</Placemark>
 				<Placemark>
 					<name>민통선</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/0320_nodongdangsa.JPG"><img style="max-width:500px;" src="files/0320_checkpoint.JPG"> <img style="max-width:500px;" src="files/0320_realDMZ.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/0320_nodongdangsa.JPG"><img style="width:100%;" src="files/0320_checkpoint.JPG"> <img style="width:100%;" src="files/0320_realDMZ.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>127.2068367836637</longitude>
 						<latitude>38.25269422178015</latitude>
@@ -144,7 +144,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DMZ평화문화광장</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_1994.jpg"><img style="max-width:500px;" src="files/0320_plaza.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_1994.jpg"><img style="width:100%;" src="files/0320_plaza.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>127.2321867009447</longitude>
 						<latitude>38.30505114972512</latitude>
@@ -162,7 +162,7 @@
 				</Placemark>
 				<Placemark>
 					<name>직통폭포</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/0320_rock.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/0320_rock.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>127.2673766568986</longitude>
 						<latitude>38.20523278295681</latitude>
@@ -180,7 +180,7 @@
 				</Placemark>
 				<Placemark>
 					<name>승일교</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/0331_seungilworkshop.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/0331_seungilworkshop.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>127.3007481801253</longitude>
 						<latitude>38.18810609886165</latitude>
@@ -202,7 +202,7 @@
 				<open>1</open>
 				<Placemark>
 					<name>세운옥상</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/0322_sewoonmeeting2.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/0322_sewoonmeeting2.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>126.995162</longitude>
 						<latitude>37.56958999999999</latitude>
@@ -220,7 +220,7 @@
 				</Placemark>
 				<Placemark>
 					<name>세운상가 장인 청년창업</name>
-					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_1122.jpg"><img style="max-width:500px;" src="files/0322_sewoonmeeting.JPG"></div>]]></description>
+					<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_1122.jpg"><img style="width:100%;" src="files/0322_sewoonmeeting.JPG"></div>]]></description>
 					<LookAt>
 						<longitude>126.9951331747062</longitude>
 						<latitude>37.5682779868315</latitude>
@@ -242,7 +242,7 @@
 			<name>Apil-May</name>
 			<Placemark>
 				<name>세운베이스먼트</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_1139.jpg"><img style="max-width:500px;" src="files/0410_scanning1.JPG"><img style="max-width:500px;" src="files/0410_scanning2.JPG"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_1139.jpg"><img style="width:100%;" src="files/0410_scanning1.JPG"><img style="width:100%;" src="files/0410_scanning2.JPG"></div>]]></description>
 				<LookAt>
 					<longitude>126.9951331747062</longitude>
 					<latitude>37.5682779868315</latitude>
@@ -260,7 +260,7 @@
 			</Placemark>
 			<Placemark>
 				<name>메이커스큐브</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/0403_stoneselection.JPG"><img style="max-width:500px;" src="files/IMG_2885.JPG"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/0403_stoneselection.JPG"><img style="width:100%;" src="files/IMG_2885.JPG"></div>]]></description>
 				<LookAt>
 					<longitude>126.9951331747062</longitude>
 					<latitude>37.5682779868315</latitude>
@@ -281,7 +281,7 @@
 			<name>June-July</name>
 			<Placemark>
 				<name>세운캠퍼스</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_1760.jpg"><img style="max-width:500px;" src="files/IMG_4784.jpg"><img style="max-width:500px;" src="files/IMG_1699.jpg"><img style="max-width:500px;" src="files/IMG_1724.jpg"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_1760.jpg"><img style="width:100%;" src="files/IMG_4784.jpg"><img style="width:100%;" src="files/IMG_1699.jpg"><img style="width:100%;" src="files/IMG_1724.jpg"></div>]]></description>
 				<LookAt>
 					<longitude>126.995237953239</longitude>
 					<latitude>37.56853880008648</latitude>
@@ -299,7 +299,7 @@
 			</Placemark>
 			<Placemark>
 				<name>서울시립대학교 구조실험동</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_2045.jpg"><img style="max-width:500px;" src="files/IMG_2052.jpg"><img style="max-width:500px;" src="files/IMG_2228.jpg"><img style="max-width:500px;" src="files/IMG_2421.JPG"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_2045.jpg"><img style="width:100%;" src="files/IMG_2052.jpg"><img style="width:100%;" src="files/IMG_2228.jpg"><img style="width:100%;" src="files/IMG_2421.JPG"></div>]]></description>
 				<LookAt>
 					<longitude>127.0601884018028</longitude>
 					<latitude>37.58329860865005</latitude>
@@ -317,7 +317,7 @@
 			</Placemark>
 			<Placemark>
 				<name>용인공장 - 디크리트 제일특수조형</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_2410.jpg"><img style="max-width:500px;" src="files/IMG_4800.jpg"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_2410.jpg"><img style="width:100%;" src="files/IMG_4800.jpg"></div>]]></description>
 				<LookAt>
 					<longitude>127.2079116119509</longitude>
 					<latitude>37.39763864264056</latitude>
@@ -338,7 +338,7 @@
 			<name>Aug</name>
 			<Placemark>
 				<name>Absentialis</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_1997.jpg"><img style="max-width:500px;" src="files/IMG_2795.jpg"><img style="max-width:500px;" src="files/IMG_2824 (1).jpg"><img style="max-width:500px;" src="files/IMG_2866.jpg"><img style="max-width:500px;" src="files/IMG_2887.JPG"><img style="max-width:500px;" src="files/IMG_3027.jpg"><img style="max-width:500px;" src="files/IMG_3035.jpg"><img style="max-width:500px;" src="files/IMG_3052.jpg"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_1997.jpg"><img style="width:100%;" src="files/IMG_2795.jpg"><img style="width:100%;" src="files/IMG_2824 (1).jpg"><img style="width:100%;" src="files/IMG_2866.jpg"><img style="width:100%;" src="files/IMG_2887.JPG"><img style="width:100%;" src="files/IMG_3027.jpg"><img style="width:100%;" src="files/IMG_3035.jpg"><img style="width:100%;" src="files/IMG_3052.jpg"></div>]]></description>
 				<LookAt>
 					<longitude>127.2306130338085</longitude>
 					<latitude>38.30692112149756</latitude>
@@ -359,7 +359,7 @@
 			<name>Sep</name>
 			<Placemark>
 				<name>아트선재센터</name>
-				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="max-width:500px;" src="files/IMG_3172.jpg"></div>]]></description>
+				<description><![CDATA[<div style="width: 480px; height: 480px;"><img style="width:100%;" src="files/IMG_3172.jpg"></div>]]></description>
 				<LookAt>
 					<longitude>126.9819568880791</longitude>
 					<latitude>37.57912087306597</latitude>

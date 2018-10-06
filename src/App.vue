@@ -199,5 +199,9 @@ html, body, #cesiumContainer {
     position: absolute;
     width: 250px;
 }
+.cesium-infoBox-description-lighter {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 </style>
